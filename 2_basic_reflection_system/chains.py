@@ -1,4 +1,4 @@
-from langchain_core.prompts import ChatPromptTemplate, MessagePlaceholder
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 
@@ -13,7 +13,7 @@ generation_prompt = ChatPromptTemplate.from_messages(
             "Always aim for clarity, relevance, and helpfulness. "
             "If the user provides critique or correction, acknowledge it respectfully and adapt accordingly."
         ),
-        MessagePlaceholder(variable_name="messages")
+        MessagesPlaceholder(variable_name="messages")
     ]
 )
 
@@ -35,4 +35,4 @@ llm = ChatGroq(
 )
 
 generation_chain = generation_prompt | llm
-refletion_chain = reflection_prompt | llm
+reflection_chain = reflection_prompt | llm
