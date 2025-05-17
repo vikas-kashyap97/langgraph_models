@@ -1,0 +1,63 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.env.*  # For any .env.local or similar
+
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Mac OS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Logs
+*.log
+
+# Local data / output
+*.sqlite3
+*.db
+*.pkl
+*.h5
+*.csv
+*.tsv
+*.json
+*.xlsx
+output/
+data/
+logs/
+
+# LangChain / LangGraph artifacts
+.cache/
+langchain.sqlite
+langchain_logs/
+
+# Test and coverage files
+.coverage
+htmlcov/
+coverage.xml
+.pytest_cache/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Mypy and Pyright
+.mypy_cache/
+.pyright/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
