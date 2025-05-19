@@ -2,7 +2,7 @@
 # LangGraph Models Repository
 
 Welcome to the **LangGraph Models** repository by [vikas-kashyap97](https://github.com/vikas-kashyap97).  
-This repository presents modular implementations for building complex LLM workflows using **[LangGraph](https://github.com/langchain-ai/langgraph)**—an extension of LangChain for stateful, agent-based, and memory-aware reasoning.
+This repository presents modular implementations for building complex LLM workflows using **[LangGraph](https://github.com/vikas-kashyap97/langgraph_models.git)**—an extension of LangChain for stateful, agent-based, and memory-aware reasoning.
 
 ---
 
