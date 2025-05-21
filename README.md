@@ -95,7 +95,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📚 Resources
+## 📚 Official Resources
 
 - [LangGraph Documentation](https://docs.langchain.com/langgraph/)
 - [LangChain GitHub](https://github.com/hwchase17/langchain)
