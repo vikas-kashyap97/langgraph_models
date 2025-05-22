@@ -8,6 +8,7 @@ import uuid
 from dotenv import load_dotenv
 
 load_dotenv()
+
 llm = ChatGroq(model="llama-3.1-8b-instant")
 
 class State(TypedDict): 
