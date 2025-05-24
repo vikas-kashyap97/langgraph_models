@@ -8,6 +8,7 @@ import uuid
 from dotenv import load_dotenv
 
 load_dotenv()
+
 llm = ChatGroq(model="llama-3.1-8b-instant")
 
 class State(TypedDict): 
@@ -126,6 +127,7 @@ for chunk in app.stream(initial_state, config=thread_config):
                 # Resume the graph execution with the user's feedback
                 app.invoke(Command(resume=user_feedback), config=thread_config)
 
+                
                 # Exit loop if user says done
                 if user_feedback.lower() == "done":
                     break

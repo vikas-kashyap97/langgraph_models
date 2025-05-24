@@ -89,13 +89,13 @@ Integrating human feedback in LangGraph loops.
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install dependencies (if requirements.txt available)
+# Install dependencies
 pip install -r requirements.txt
 ```
 
 ---
 
-## 📚 Resources
+## 📚 Official Resources
 
 - [LangGraph Documentation](https://docs.langchain.com/langgraph/)
 - [LangChain GitHub](https://github.com/hwchase17/langchain)
