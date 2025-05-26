@@ -82,6 +82,30 @@ Integrating human feedback in LangGraph loops.
 
 ---
 
+### `9_RAG_agent/`
+Retrieval-Augmented Generation (RAG) agents with progressive complexity.
+
+- `1_basic.py`: Basic RAG agent flow.
+- `2_classification_driven_agent.py`: RAG agent using classification to guide actions.
+- `3_rag_powered_tool_calling.py`: Tool-augmented RAG agent using knowledge retrieval.
+- `4_advanced_multi_step_reasoning.py`: Complex reasoning over retrieved knowledge.
+
+---
+
+### `10_multi_agent_architecture/`
+Collaborative multi-agent systems for task delegation and supervision.
+
+- `1_subgraphs.py`: Modular subgraph-based agent interactions.
+- `2_supervisor_multiagent_workflow.py`: Supervisor-worker agent architecture.
+
+---
+
+### `11_streaming/`
+Streaming outputs from LLM agents in real-time.
+
+- `1_stream_events.py`: Event-driven stream interface for agent outputs.
+
+
 ## 🔧 Environment Setup
 
 ```bash
